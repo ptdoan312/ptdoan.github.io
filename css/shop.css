@@ -1,0 +1,57 @@
+.header{
+	position: absolute;
+ 	background: rgb(30,30,30);
+}
+.nav ul{
+	list-style: none;
+	margin-right: 30px;
+}
+.nav li{
+	margin: 0 18px;
+	position: relative;
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+}
+.sub-menu{
+	position: absolute;
+	width: 265px;
+	background: rgba(75,74,74,0.61);
+	top: 55px;
+	left: -18px;
+	display: none;
+	letter-spacing: 0px;
+	padding: 25px 0px;
+}
+.sub-menu li{
+	margin-bottom: 25px;
+}
+.nav li:hover{
+	text-decoration-line: underline;
+	letter-spacing: 2px;
+	transition-duration: 0.5s;
+}
+.nav li:hover .sub-menu{
+	display: block;
+}
+.sub-menu li :hover{
+	letter-spacing: 0px;
+	color: cornsilk;
+	transition-duration: 0.5s;
+}
+.main{
+	position: relative;
+	height: 1000px;
+	top: 280px;
+	font-size: 30px
+}
+.content{
+	position: relative;
+	left: 100px;
+	letter-spacing: 3px;
+}
+.content a{
+	color: lightslategray;
+}
